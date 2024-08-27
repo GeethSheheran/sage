@@ -1,0 +1,46 @@
+.partner-container {
+    text-align: center;
+    padding: 50px 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .partner-container h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 150px;
+  }
+  
+  .highlight {
+    color: #BCB883;
+  }
+  
+  .partner-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .partner-track {
+    display: flex;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .partner-logo {
+    margin: 0 150px;
+    max-height: 150px;
+    width: auto;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
