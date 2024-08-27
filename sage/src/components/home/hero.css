@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Maven+Pro:wght@400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.hero-container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-left {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #FFFFFF;
+    position: relative;
+    padding-right: 0px;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+.hero-left h1 {
+    font-size: 195px;
+    font-weight: 400;
+    font-family: "Antic Didone", serif;
+    margin: 0;
+    text-align: right;
+    line-height: 0;
+}
+.hero-left .highlight2{
+    margin-right: 100px;
+}
+
+.highlight {
+    font-size: 245px;
+    font-weight: 900;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: right;
+    color: #BCB883;
+    line-height: 1;
+}
+
+.hero-right {
+    width: 50vw;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #2c2c2c;
+    position: relative;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-top: 20px;
+    max-width: 250px;
+    font-family: "Antic Didone", serif;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 100px;
+    font-family: "Antic Didone", serif;
+    text-align: left;
+}
+
+.hero-button {
+    margin-top: 20px;
+    margin-left: 25vw;
+    padding: 5px 15px;
+    border: 1px solid #483a1e;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #c1b08f;
+    color: #2c2c2c;
+}
+
+.hero-nav {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.hero-nav ul li a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hero-contact {
+    margin-left: 20px;
+}
+
+.hero-contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #3E3B18;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
