@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Maven+Pro:wght@400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
 .hero-container {
     display: flex;
     height: 100vh;
@@ -29,7 +26,8 @@
     text-align: right;
     line-height: 0;
 }
-.hero-left .highlight2{
+
+.hero-left .highlight2 {
     margin-right: 100px;
 }
 
@@ -62,7 +60,7 @@
 }
 
 .hero-content h1 {
-    font-size: 100px;
+    font-size: 80px;
     font-family: "Antic Didone", serif;
     text-align: left;
 }
@@ -83,39 +81,4 @@
 .hero-button:hover {
     background-color: #c1b08f;
     color: #2c2c2c;
-}
-
-.hero-nav {
-    position: absolute;
-    top: 20px;
-    right: 60px;
-    display: flex;
-    align-items: center;
-}
-
-.hero-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-.hero-nav ul li a {
-    color: #2c2c2c;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.hero-contact {
-    margin-left: 20px;
-}
-
-.hero-contact a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background-color: #3E3B18;
-    border-radius: 30px;
-    padding: 5px 10px;
 }

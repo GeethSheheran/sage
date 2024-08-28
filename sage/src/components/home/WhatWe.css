@@ -89,18 +89,18 @@
   }
   
   .what-we-description {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: 'Antic Didone', serif;
     color: #2c2c2c;
     max-width: 400px;
-    margin: 10px 0;
+    margin: 0px 0;
     text-align: left;
   }
   
   .reach-us-button {
     margin-top: 20px;
-    padding: 10px 20px;
-    border: 2px solid #483a1e;
+    padding: 5px 20px;
+    border: 1px solid #483a1e;
     border-radius: 50px;
     background-color: transparent;
     color: #2c2c2c;

@@ -11,7 +11,7 @@ const WhoWe = () => {
     >
       <div className="who-we-left">
         <h1>
-          <span className="highlight">WHO</span> <br />
+          <span className="highlight">WHO </span> <br />
           we <br />
           are
         </h1>
