@@ -6,6 +6,7 @@ import Branding from '../../components/home/Branding';
 import Partner from '../../components/home/Partner';
 import Advice from '../../components/home/Advice';
 import Legendary from '../../components/home/Legendary';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Partner />
       <Advice />
       <Legendary />
+      <Footer/>
     </div>
   );
 };
