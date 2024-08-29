@@ -7,17 +7,18 @@ import Partner from '../../components/home/Partner';
 import Advice from '../../components/home/Advice';
 import Legendary from '../../components/home/Legendary';
 import Footer from '../../components/Footer';
+import FadeInSection from '../../components/FadeInSection';
 
 const Home = () => {
   return (
     <div className="home">
-      <Hero />
-      <WhoWe />
-      <WhatWe />
-      <Branding />
-      <Partner />
-      <Advice />
-      <Legendary />
+      <FadeInSection><Hero /></FadeInSection>
+      <FadeInSection><WhoWe /></FadeInSection>
+      <FadeInSection><WhatWe /></FadeInSection>
+      <FadeInSection><Branding /></FadeInSection>
+      <FadeInSection><Partner /></FadeInSection>
+      <FadeInSection><Advice /></FadeInSection>
+      <FadeInSection><Legendary /></FadeInSection>
       <Footer/>
     </div>
   );
